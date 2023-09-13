@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    >
+<LinearLayout
+    android:id="@+id/dialogRootLayout"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#917D7D">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:text="Them moi sp"
+        android:gravity="center"
+        android:textColor="#BA2121"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="24sp"
+          />
+    <EditText
+        android:id="@+id/edtAddTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap ten"/>
+    <EditText
+        android:id="@+id/edtAddPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap gia"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/edtAddQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap so luong"
+        android:inputType="number"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hinhanh sp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <ImageView
+        android:id="@+id/ivImage"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:src="@drawable/image"/>
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="trang thai"/>
+    <Button
+        android:id="@+id/btnAddProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="them sp"/>
+    <Button
+        android:id="@+id/btnAddCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="huy"
+        android:textAllCaps="true"
+        android:backgroundTint="@color/black"/>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

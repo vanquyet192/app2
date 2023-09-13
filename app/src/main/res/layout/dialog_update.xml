@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    >
+    <LinearLayout
+        android:id="@+id/dialogRootLayout"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#917D7D">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="chinh sua sp"
+            android:gravity="center"
+            android:textColor="#BA2121"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            />
+        <EditText
+            android:id="@+id/edtAddTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhap ten"/>
+        <EditText
+            android:id="@+id/edtAddPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhap gia"/>
+        <EditText
+            android:id="@+id/edtAddQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhap so luong"/>
+        <Button
+            android:id="@+id/btnUpdateProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:text="update"/>
+        <Button
+            android:id="@+id/btnUpdateCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="huy"
+            android:textAllCaps="true"
+            android:backgroundTint="@color/black"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

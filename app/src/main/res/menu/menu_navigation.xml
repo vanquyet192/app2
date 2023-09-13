@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mQlsp"
+        android:icon="@drawable/product"
+        android:title="Quan Ly San Pham" />
+    <item
+        android:id="@+id/mGioiThieu"
+        android:icon="@drawable/more"
+        android:title="Gioi Thieu" />
+
+    <item android:title="Khac">
+        <menu>
+            <item
+                android:id="@+id/mCaiDat"
+                android:icon="@drawable/setting"
+                android:title="Cai Dat" />
+            <item
+                android:id="@+id/mThoat"
+                android:icon="@drawable/exit"
+                android:title="Thoat" />
+
+        </menu>
+    </item>
+
+</menu>

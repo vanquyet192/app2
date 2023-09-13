@@ -1,0 +1,16 @@
+<resources>
+<string name="app_name">app_banhang</string>
+<string name="forgot_password"><u>Forgot password?</u></string>
+<string name="signup">Don\'t have an account?<b>Sign up</b></string>
+<string name="login">You have an account?<b>Log in</b></string>
+<string name="title_activity_register">RegisterActivity</string>
+<!-- Strings used for fragments for navigation -->
+<string name="first_fragment_label">First Fragment</string>
+<string name="second_fragment_label">Second Fragment</string>
+<string name="next">Next</string>
+<string name="previous">Previous</string>
+<string name="edit"><u>Edit</u></string>
+<string name="delete"><u>Delete</u></string>
+
+
+</resources>
